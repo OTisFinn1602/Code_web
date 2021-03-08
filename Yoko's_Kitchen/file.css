@@ -1,0 +1,121 @@
+body{
+    background-color: white;
+    margin: 0;
+}
+#main{
+    width: 100%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Phần Header */
+#head{
+    height: 150px;
+    border: 1px solid transparent;
+    /* margin-bottom: 5px; */
+    background-color: gray;
+}
+.head-logo{
+    margin: 30px 20px 0px 20px;
+    float: left;
+}
+.head-name_logo{
+    color: white;
+    margin-top: 60px;
+}
+.head-name_logo h4{
+    margin-top: 0;
+}
+.head-name_logo h1{
+    margin-bottom: 0;
+}
+
+/* Phần Nav */
+#nav{
+    height: 50px;
+    border: 1px solid transparent;
+    margin-bottom: 5px;
+    background-color: silver;
+}
+.nav_bar li{
+    display: inline;
+    margin-right: 50px;
+    list-style-type: none;
+}
+.nav_bar a{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+li:hover a{
+    color: black;
+}
+
+/* Phần right */
+#right{
+    width: calc(30% - 19px);
+    border: 1px solid black;
+    min-height: 394px;
+    background-color: white;
+    padding-left: 10px;
+    float: right;
+    color: red;
+}
+.right-PR li{
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+.right-PR a{
+    text-decoration: none;
+}
+.right-C p{
+    color: black;
+}
+
+/* Phần left */
+#left{
+    width: 70%;
+    border: 1px solid transparent;
+    background-color: white;
+    padding: 0 20px;
+}
+.s-p1{
+    min-height: 210px;
+}
+.s-p1-img,
+.s-p2-img{
+    float: left;
+    margin-right: 10px;
+}
+.s-p1-img p,
+.s-p2-img p{
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+.s-p1-img:hover p,
+.s-p2-img:hover p{
+    cursor:context-menu;
+}
+.s-p1-text a,
+.s-p2-text a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.s-p1-text:hover a,
+.s-p2-text:hover a{
+    color: red;
+}
+
+/* Phần footer */
+#footer{
+    margin-top: 5px;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    background-color: silver;
+    clear: both;
+}
+
